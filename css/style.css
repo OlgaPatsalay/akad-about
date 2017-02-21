@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,800');
+
+header, div, main, body, button, form, footer,
+input {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    color: #60606e;
+    min-width: 720px;
+}
+header {
+    background: url("../images/background-header.jpg") no-repeat;
+    width: 100%;
+    padding: 79px;
+    height: 500px;
+    background-size: cover;
+    padding-top: 42px;
+    margin-bottom: 30px;
+}
+footer {
+    width: 100%;
+    background-color: #7beec7;
+    min-height: 330px;
+    padding: 41px 79px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+h2, h3, .benefits-items-name, .form-subscribe-btn,
+.header-menu, .sub-title, .form-contact-us-title,
+.form-contact-us-btn {
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 79px 79px 0 79px;
+}
+.logo {
+    float: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.menu-main {
+    float: right;
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
+.about-us-header {
+    margin-top: 195px;
+    margin-bottom: 0;
+}
+h2 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+h3 {
+    font-size: 30px;
+    line-height: 48px;
+    position: relative;
+    margin-bottom: 8px;
+}
+h3:before {
+    content: "";
+    background-color: #7beec7;
+    position: absolute;
+    width: 68px;
+    height: 21px;
+    z-index: -1;
+    top: 21px;
+}
+.header-menu {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+ }
+.header-menu li {
+    display: inline-block;
+    cursor: pointer;
+}
+.main-row1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;;
+}
+.width-1-2 {
+    width: 48%;
+    min-width: 250px;
+    margin: auto;
+}
+.sub-title {
+    font-family: OpenSans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+.article-text {
+    font-family: OpenSans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.main-row2,
+.main-row3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 146px;
+}
+.benefits-items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.width1-3 {
+    min-width: 250px;
+    width: 32%;
+    text-align: left;
+}
+.benefits-items-name {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.our-team-dscr {
+    text-align: center;
+}
+.our-team-foto-wrap img {
+     margin-bottom: 28px;
+}
+.benefits-items-name:before {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #7beec7;
+    color: #fff;
+    font-family: Ionicons, sans-serif;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.fully-responsive:before {
+    content: "\f1fa";
+}
+.unlimited-options:before {
+    content: "\f44a";
+}
+.wordpress:before {
+    content: "\f248";
+}
+.e-commerce:before {
+    content: "\f3f7";
+}
+.customizable-design:before {
+    content: "\f4a6";
+}
+.support:before {
+    content: "\f2ad";
+}
+.sub-title--center {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    line-height: 24px;
+}
+.main-row3 {
+    margin-top: 113px;
+}
+.our-team-foto-wrap {
+    margin-top: 98px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-contact-us,
+.form-subscribe {
+    width: 50%;
+    min-width: 370px;
+}
+.form-contact-us-title {
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.form-contact-us-btn {
+    background-color: #ffffff;
+    width: 165px;
+    height: 49px;
+    font-family: Montserrat, sans-serif;
+    color: #7beec7;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.form-subscribe {
+    background-color: #ffffff;
+    height: 230px;
+    width: 556px;
+    min-width: 556px;
+    padding: 14px 25px;
+    margin-top: 9px;
+}
+.form-subscribe-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+.form-subscribe-sub-title {
+    font-family: OpenSans, sans-serif;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+input[type="email"] {
+    width: 369px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    height: 50px;
+    float: left;
+    padding-left: 12px;
+}
+.form-subscribe-btn {
+    float: right;
+    background-color: #7beec7;
+    width: 135px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    font-family: Montserrat, sans-serif;
+    color: #cdcdcd;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+::-moz-placeholder {
+    font-family: Montserrat, sans-serif;
+    color: #cdcdcd;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+:-moz-placeholder {
+    font-family: Montserrat, sans-serif;
+    color: #cdcdcd;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+:-ms-input-placeholder {
+    font-family: Montserrat, sans-serif;
+    color: #cdcdcd;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
